@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "docs": "gitbook install && gitbook build && gh-pages -d _book"
+    "docs": "gulp deploy:docs"
   },
   "devDependencies": {
     "@types/bluebird": "^3.5.8",
