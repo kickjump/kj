@@ -1,13 +1,16 @@
 {
   "scripts": {
-    "docs": "gulp deploy:docs"
+    "docs": "gulp deploy:docs",
+    "cleanup": "gulp clean"
   },
   "devDependencies": {
     "@types/bluebird": "^3.5.8",
     "@types/chalk": "^0.4.31",
+    "@types/del": "^3.0.0",
     "@types/gulp": "^4.0.4",
     "@types/gulp-util": "^3.0.31",
     "@types/through2": "^2.0.33",
+    "del": "^3.0.0",
     "gh-pages": "^1.0.0",
     "gitbook-cli": "^2.3.2",
     "gitbook-plugin-advanced-emoji": "^0.2.2",
@@ -17,6 +20,8 @@
     "gitbook-plugin-prism": "^2.3.0",
     "gulp": "gulpjs/gulp#4.0",
     "gulp-cli": "^1.4.0",
+    "gulp-tslint": "^8.1.2",
+    "gulp-typescript": "^3.2.2",
     "gulp-util": "^3.0.8",
     "husky": "^0.14.3",
     "jest": "^20.0.4",
