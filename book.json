@@ -1,0 +1,24 @@
+{
+  "gitbook": ">=3.1.0",
+  "title": "kj",
+  "author": "Ifiok Jr. <ifiokotung@gmail.com>",
+  "description": "Official documentation for kj",
+  "language": "en",
+  "plugins": [
+    "edit-link",
+    "prism",
+    "-highlight",
+    "github",
+    "anker-enable",
+    "advanced-emoji"
+  ],
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/kickjump/kj/tree/master",
+      "label": "Edit This Page"
+    },
+    "github": {
+      "url": "https://github.com/kickjump/kj/"
+    }
+  }
+}
