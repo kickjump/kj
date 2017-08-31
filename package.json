@@ -1,7 +1,8 @@
 {
   "scripts": {
     "docs": "gulp deploy:docs",
-    "cleanup": "gulp clean"
+    "cleanup": "gulp clean",
+    "prepush": "gulp prepush"
   },
   "devDependencies": {
     "@types/bluebird": "^3.5.8",

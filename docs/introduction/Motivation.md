@@ -1,5 +1,4 @@
-Motivation
-==========
+# Motivation
 
 Technology is moving fast.
 

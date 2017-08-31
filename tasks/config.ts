@@ -6,4 +6,9 @@ export default {
       '!**/{_book,_book/**}',
     ],
   },
+  tslint: {
+    files: {
+      top: ['gulpfile.ts', 'tasks/*.ts'],
+    },
+  },
 };
