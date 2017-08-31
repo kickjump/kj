@@ -7,7 +7,7 @@ import config from './config';
 let program: Program;
 
 export function runTSLint(opts: PluginOptions = {}) {
-  return () => {
+  return function tslintClosure() {
     if (!program) {
       program = Linter.createProgram('./tsconfig.json');
     }
