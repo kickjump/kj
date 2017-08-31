@@ -8,6 +8,7 @@
 
 <p align="center">
   <a href="http://travis-ci.org/kickjump/kj"><img src="https://secure.travis-ci.org/kickjump/kj.svg?branch=master" alt="Build Status"></a>
+  <a href="http://commitizen.github.io/cz-cli/"><img alt="Commitizen friendly" src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg"></a>
 </p>
 
 **kj** is a starter kit for your next universal application. By universal we mean, it provides a core structure for an application that can run in the following environments.
