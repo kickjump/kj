@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>1.1. Motivation · kj</title>
+        <title>2.1. Commits · kj</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -61,10 +61,8 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../Contributing.html" />
     
-    
-    <link rel="prev" href="../Introduction.html" />
+    <link rel="prev" href="../Contributing.html" />
     
 
     </head>
@@ -120,9 +118,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.2.1" data-path="Motivation.html">
+        <li class="chapter " data-level="1.2.1" data-path="../introduction/Motivation.html">
             
-                <a href="Motivation.html">
+                <a href="../introduction/Motivation.html">
             
                     
                     1.1. Motivation
@@ -152,9 +150,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.3.1" data-path="../contributing/Commits.html">
+        <li class="chapter active" data-level="1.3.1" data-path="Commits.html">
             
-                <a href="../contributing/Commits.html">
+                <a href="Commits.html">
             
                     
                     2.1. Commits
@@ -200,7 +198,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >1.1. Motivation</a>
+        <a href="../.." >2.1. Commits</a>
     </h1>
 </div>
 
@@ -215,20 +213,20 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="motivation">Motivation</h1>
-<p>Technology is moving fast.</p>
-<p>The JavaScript community is moving super fast.</p>
-<p>As more developers come on board (they took our joobs!), and as JavaScript becomes ubiquitous the fight to build new frameworks, tools, best practices has heated up. For the average developer, it&apos;s impossible to keep up.</p>
-<p>Fortunately for us, you&apos;re not the average developer. You&apos;re hopping on the gravy train and milking this JavaScript cash cow for all it&apos;s worth. Each new framework that gains steam presents a new opportunity. For a few months there&apos;s confusion, employers aren&apos;t sure if it&apos;s going to catch on. You don&apos;t care. You&apos;ve got your lottery ticket in hand, dabbling in this and a few other potentially lucrative technologies.  You don&apos;t care to be the best in market. You just know that if this or any of your other gambles catch on, you&apos;re going to be a wanted developer! Kerching!</p>
-<p>You&apos;ll confidently declare in interviews. I&apos;ve been using this for X months. When really you completed a hello world application and realised you couldn&apos;t be bothered to dive further into the useless documentation.</p>
-<p>It&apos;s a beautiful con.</p>
-<p><code>kj</code> aims to be the next in line of unneeded, but JavaScript job creating tools that promises you the world, until you attempt to use it in actual development, only to realise, to your horror, the true scale of it&apos;s shittiness.. The best thing is, unlike Facebook and Google, we don&apos;t have the legions of soulless developers, sacrificing themselves at the altar of compromised-values, to work for months toward something, that somewhat resembles, something, which, perhaps while squinting, you could poke a stick at...</p>
-<p>Just make sure you really don&apos;t like the stick.</p>
-<p>So if you&apos;re bleeding edge and <em>foolishly</em> willing to dangle your reputation on the line by using a library/framework (who cares!) created by some unknown company on the internet, then this is the tool for you. In fact we think it&apos;s pretty great.</p>
-<h2 id="official-blurb">Official blurb</h2>
-<p><code>kj</code> provides an insight into the latest and greatest tools for delivering multiplatform experiences to your users.</p>
-<p>Whether you&apos;re looking to deploy exclusively on the web, or across mobile, tablets and desktop, this might be the tool for you.</p>
-<p>Maybe for the new two weeks, until something fresher comes along.</p>
+                                <h1 id="commits">Commits</h1>
+<p>We are adopting precise rules over how our git commit messages can be formatted.  This leads to <strong>more readable messages</strong> that are easy to follow when looking through the <strong>project history</strong>.</p>
+<p>The commit message formatting can be added using a typical git workflow or through the use of a CLI wizard (<a href="https://github.com/commitizen/cz-cli" target="_blank">Commitizen</a>).</p>
+<p>Setting up and using the commit wizard globally is just a case of running the following.</p>
+<pre class="language-"><code class="lang-bash">yarn global add commitizen <span class="token comment" spellcheck="true"># Because all the cool kids use yarn</span>
+<span class="token function">npm</span> <span class="token function">install</span> -g cz-conventional-changelog <span class="token comment" spellcheck="true"># Because sometimes we forget &#x1F615;</span>
+<span class="token keyword">echo</span> <span class="token string">&apos;{ &quot;path&quot;: &quot;cz-conventional-changelog&quot; }&apos;</span> <span class="token operator">&gt;</span> ~/.czrc
+
+<span class="token function">git</span> cz <span class="token comment" spellcheck="true"># Create a commit using the wizard.</span>
+<span class="token function">git</span> cz --retry <span class="token comment" spellcheck="true"># If the previous commit fails.</span>
+</code></pre>
+<p>Full documentation of this setup can be found on the <a href="https://github.com/commitizen/" target="_blank">Commitzen GitHub</a>.</p>
+<p>An alternative is to use the wizard without installing <code>commitizen</code> globally simply use <code>npm run cz</code> in your terminal after staging your changes in git. Retries can be triggered using <code>npm run cz -- --retry</code>.</p>
+<p>If you are using VScode you can install <a href="https://marketplace.visualstudio.com/items?itemName=KnisterPeter.vscode-commitizen" target="_blank">vscode-commitizen</a> and follow the instructions outlined there.</p>
 
                                 
                                 </section>
@@ -256,14 +254,10 @@
 
             
                 
-                <a href="../Introduction.html" class="navigation navigation-prev " aria-label="Previous page: 1. Introduction">
+                <a href="../Contributing.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 2. Contributing">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
-                
-                <a href="../Contributing.html" class="navigation navigation-next " aria-label="Next page: 2. Contributing">
-                    <i class="fa fa-angle-right"></i>
-                </a>
                 
             
         
@@ -272,7 +266,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"1.1. Motivation","level":"1.2.1","depth":2,"next":{"title":"2. Contributing","level":"1.3","depth":1,"path":"docs/Contributing.md","ref":"docs/Contributing.md","articles":[{"title":"2.1. Commits","level":"1.3.1","depth":2,"path":"docs/contributing/Commits.md","ref":"docs/contributing/Commits.md","articles":[]}]},"previous":{"title":"1. Introduction","level":"1.2","depth":1,"path":"docs/Introduction.md","ref":"docs/Introduction.md","articles":[{"title":"1.1. Motivation","level":"1.2.1","depth":2,"path":"docs/introduction/Motivation.md","ref":"docs/introduction/Motivation.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["edit-link","prism","-highlight","github","anker-enable","advanced-emoji"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{},"github":{"url":"https://github.com/kickjump/kj/"},"anker-enable":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"Edit This Page","base":"https://github.com/kickjump/kj/tree/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Ifiok Jr. <ifiokotung@gmail.com>","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"kj","language":"en","gitbook":">=3.1.0","description":"Official documentation for kj"},"file":{"path":"docs/introduction/Motivation.md","mtime":"2017-08-31T07:24:24.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-31T07:25:52.489Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"2.1. Commits","level":"1.3.1","depth":2,"previous":{"title":"2. Contributing","level":"1.3","depth":1,"path":"docs/Contributing.md","ref":"docs/Contributing.md","articles":[{"title":"2.1. Commits","level":"1.3.1","depth":2,"path":"docs/contributing/Commits.md","ref":"docs/contributing/Commits.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["edit-link","prism","-highlight","github","anker-enable","advanced-emoji"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{},"github":{"url":"https://github.com/kickjump/kj/"},"anker-enable":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"Edit This Page","base":"https://github.com/kickjump/kj/tree/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Ifiok Jr. <ifiokotung@gmail.com>","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"kj","language":"en","gitbook":">=3.1.0","description":"Official documentation for kj"},"file":{"path":"docs/contributing/Commits.md","mtime":"2017-08-31T07:24:24.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-31T07:25:52.489Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
