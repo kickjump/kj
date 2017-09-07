@@ -2,11 +2,11 @@
 # yarn lockfile v1
 
 
-"@commitlint/cli@3.1.3":
-  version "3.1.3"
-  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-3.1.3.tgz#c23bb1b1e2c545d90c405a59c10b2b4f6c671370"
+"@commitlint/cli@3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-3.2.0.tgz#be8902f2fa859f93697a4e204305d6b476480931"
   dependencies:
-    "@commitlint/core" "^3.1.3"
+    "@commitlint/core" "^3.2.0"
     babel-polyfill "^6.23.0"
     chalk "^2.0.1"
     get-stdin "^5.0.1"
@@ -19,7 +19,7 @@
   dependencies:
     lerna "^2.0.0"
 
-"@commitlint/core@^3.1.3", "@commitlint/core@^3.2.0":
+"@commitlint/core@^3.2.0":
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@commitlint/core/-/core-3.2.0.tgz#31753e772d094b72ca98a5f058fe5615e54c79a7"
   dependencies:
