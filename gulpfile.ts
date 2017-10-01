@@ -4,6 +4,7 @@ import { deployGHPages } from './tasks/ghPages';
 import { gitbookBuild, gitbookInstall } from './tasks/gitbook';
 import { lintMarkdown } from './tasks/markdown';
 import { runTSLint } from './tasks/tslint';
+import { runTypeScript } from './tasks/typescript';
 
 task('lint:markdown', series(lintMarkdown));
 const lintMarkdownTask = task('lint:markdown');
@@ -34,3 +35,7 @@ const lintTask = task('lint');
 lintTask.description = 'Run linting across all packages';
 
 task('prepush', series('lint'));
+
+task('typescript', series(runTypeScript));
+const typescriptTask = task('typescript');
+typescriptTask.description = 'Run Typescript across all packages.';
