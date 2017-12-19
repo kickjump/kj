@@ -18,7 +18,7 @@
     "@commitlint/prompt-cli": "3.2.0",
     "@types/bluebird": "3.5.19",
     "@types/del": "3.0.0",
-    "@types/gulp": "4.0.4",
+    "@types/gulp": "4.0.5",
     "@types/gulp-util": "3.0.31",
     "@types/through2": "2.0.33",
     "commitizen": "2.9.6",

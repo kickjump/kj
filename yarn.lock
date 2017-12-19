@@ -109,9 +109,9 @@
     "@types/through2" "*"
     "@types/vinyl" "*"
 
-"@types/gulp@4.0.4":
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/@types/gulp/-/gulp-4.0.4.tgz#753ffe5b0ddaf0c9a60101b346141bb80e602f25"
+"@types/gulp@4.0.5":
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/@types/gulp/-/gulp-4.0.5.tgz#f5f498d5bf9538364792de22490a12c0e6bc5eb4"
   dependencies:
     "@types/chokidar" "*"
     "@types/undertaker" "*"
