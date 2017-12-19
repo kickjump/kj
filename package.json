@@ -38,7 +38,7 @@
     "gulp-util": "3.0.8",
     "husky": "0.14.3",
     "jest": "22.0.1",
-    "lerna": "2.2.0",
+    "lerna": "2.5.1",
     "lint-staged": "4.2.3",
     "markdownlint": "0.6.1",
     "markdownlint-cli": "0.3.1",
