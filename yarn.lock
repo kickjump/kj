@@ -66,9 +66,9 @@
     throat "^4.1.0"
     vorpal "^1.10.0"
 
-"@types/bluebird@3.5.11":
-  version "3.5.11"
-  resolved "https://registry.yarnpkg.com/@types/bluebird/-/bluebird-3.5.11.tgz#60482b3cddce9111dee3cafd08ab54fffee4b119"
+"@types/bluebird@3.5.19":
+  version "3.5.19"
+  resolved "https://registry.yarnpkg.com/@types/bluebird/-/bluebird-3.5.19.tgz#1a47308819ac2d1d6d1ca4f5d800ac84924100de"
 
 "@types/chalk@*":
   version "0.4.31"
