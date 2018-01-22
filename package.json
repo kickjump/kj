@@ -32,7 +32,7 @@
     "gitbook-plugin-github": "3.0.0",
     "gitbook-plugin-prism": "2.3.0",
     "gulp": "gulpjs/gulp#4.0",
-    "gulp-cli": "1.4.0",
+    "gulp-cli": "2.0.1",
     "gulp-tslint": "8.1.2",
     "gulp-typescript": "3.2.2",
     "gulp-util": "3.0.8",
