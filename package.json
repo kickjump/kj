@@ -34,7 +34,7 @@
     "gulp": "gulpjs/gulp#4.0",
     "gulp-cli": "1.4.0",
     "gulp-tslint": "8.1.2",
-    "gulp-typescript": "3.2.2",
+    "gulp-typescript": "4.0.2",
     "gulp-util": "3.0.8",
     "husky": "0.14.3",
     "jest": "22.0.1",
