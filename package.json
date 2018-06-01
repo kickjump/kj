@@ -24,7 +24,7 @@
     "commitizen": "2.9.6",
     "cz-conventional-changelog": "2.0.0",
     "del": "3.0.0",
-    "gh-pages": "1.0.0",
+    "gh-pages": "1.2.0",
     "gitbook-cli": "2.3.2",
     "gitbook-plugin-advanced-emoji": "0.2.2",
     "gitbook-plugin-anker-enable": "0.0.4",
