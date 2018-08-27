@@ -37,7 +37,7 @@
     "gulp-typescript": "3.2.2",
     "gulp-util": "3.0.8",
     "husky": "0.14.3",
-    "jest": "22.0.1",
+    "jest": "22.4.4",
     "lerna": "2.5.1",
     "lint-staged": "4.2.3",
     "markdownlint": "0.6.1",
