@@ -30,7 +30,7 @@
     "gitbook-plugin-anker-enable": "0.0.4",
     "gitbook-plugin-edit-link": "2.0.2",
     "gitbook-plugin-github": "3.0.0",
-    "gitbook-plugin-prism": "2.3.0",
+    "gitbook-plugin-prism": "2.4.0",
     "gulp": "gulpjs/gulp#4.0",
     "gulp-cli": "1.4.0",
     "gulp-tslint": "8.1.2",
