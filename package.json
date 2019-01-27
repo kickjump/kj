@@ -21,7 +21,7 @@
     "@types/gulp": "4.0.5",
     "@types/gulp-util": "3.0.31",
     "@types/through2": "2.0.33",
-    "commitizen": "2.10.1",
+    "commitizen": "3.0.5",
     "cz-conventional-changelog": "2.0.0",
     "del": "3.0.0",
     "gh-pages": "1.0.0",
