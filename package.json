@@ -20,7 +20,7 @@
     "@types/through2": "2.0.34",
     "commitizen": "3.0.5",
     "cz-conventional-changelog": "2.1.0",
-    "del": "3.0.0",
+    "del": "4.1.1",
     "gh-pages": "2.0.1",
     "gitbook-cli": "2.3.2",
     "gitbook-plugin-advanced-emoji": "0.2.2",
