@@ -40,7 +40,7 @@
     "markdownlint": "0.11.0",
     "markdownlint-cli": "0.13.0",
     "npm-which": "3.0.1",
-    "prettier": "1.16.1",
+    "prettier": "1.19.1",
     "prettier-package-json": "2.0.1",
     "through2": "3.0.0",
     "ts-node": "8.0.2",
