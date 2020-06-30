@@ -43,7 +43,7 @@
     "prettier": "1.16.1",
     "prettier-package-json": "2.0.1",
     "through2": "3.0.0",
-    "ts-node": "8.0.2",
+    "ts-node": "8.10.2",
     "tslint": "5.12.1",
     "tslint-config-prettier": "1.17.0",
     "tslint-eslint-rules": "5.4.0",
