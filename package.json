@@ -13,7 +13,7 @@
     "@commitlint/cli": "8.3.5",
     "@commitlint/config-lerna-scopes": "8.3.4",
     "@commitlint/prompt-cli": "8.3.5",
-    "@types/bluebird": "3.5.25",
+    "@types/bluebird": "3.5.35",
     "@types/del": "3.0.1",
     "@types/gulp": "4.0.5",
     "@types/gulp-util": "3.0.34",
